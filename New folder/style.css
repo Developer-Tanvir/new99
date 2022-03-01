@@ -12,11 +12,10 @@ img{
 }
 
 h3{
-    max-width: 250px;
     text-align: center;
     background-color: #003399;
     color: #fff;
-    margin: 20px auto;
+    margin: 20px 0;
     padding: 15px 0;
     text-transform: uppercase;
     border-radius: 10px;
@@ -25,7 +24,6 @@ h3{
     background-color: #000;
     color: #fff;
     border-radius: 10px;
-    margin: 40px 0;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
     font-size: 22px;
@@ -42,23 +40,17 @@ h3{
 }
 .taket-container{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    text-align: center;
-  
+    justify-content: space-around;
+    align-items: flex-end;
 }
 .tiket img{
     max-width: 250px;
 }
-.tiket{
-    flex-basis: 30%;
-}
 .taket-container2{
     display: flex;
     justify-content: center;
-    text-align: center;
-    align-items: flex-end ;
-    column-gap: 4rem;
+    column-gap: 100px;
+    align-items: flex-end;
     
 }
 .tiket h2{
@@ -69,7 +61,6 @@ h3{
 /* faq  */
 .faq-container{
     max-width: 80%;
-    padding: 0;
 }
 .accordion {
     background-color: #eee;
@@ -140,12 +131,5 @@ h3{
     }
     .faq{
         max-width: 100%;
-    }
-    .tiket img{
-        max-width: 100%;
-    }
-    h2 {
-        max-width: 100%;
-        
     }
   }
