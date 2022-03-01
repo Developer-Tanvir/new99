@@ -103,7 +103,7 @@ h3{
   
   .active:after {
     content: "\2212";
-    
+
   }
   
   .panel {
@@ -112,6 +112,9 @@ h3{
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+  .panel ul li{
+      color: #fff;
   }
   .panel p{
     margin: 0;
